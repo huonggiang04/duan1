@@ -1,0 +1,112 @@
+<style>
+    .dangnhap {
+        background-color: #F6973F;
+        display: flex;
+        height: 100%;
+    }
+
+    .img {
+        width: 40%;
+        padding: 30px;
+        margin-left: 2%;
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+
+    .img img {
+        width: 100%;
+    }
+
+    .boxdangnhap {
+        padding: 30px;
+        margin-left: 7%;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        width: 28%;
+        background-color: white;
+        height: auto;
+    }
+
+    .boxdangnhap .tiltle {
+        text-align: center;
+        font-size: 2.3vw;
+        color: #F6973F;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .boxdangnhap .formtaikhoan .nhap input {
+        background-color: #f6973f73;
+        margin-top: 40px;
+        width: 70%;
+        height: 40px;
+        border-radius: 7px;
+        border: 1px solid #CCC;
+        margin-left: 30px;
+    }
+
+    .formtaikhoan input[type="text"],
+    .formtaikhoan input[type="email"],
+    .formtaikhoan input[type="password"] {
+        width: 100%;
+        border: 1px #CCC solid;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .formtaikhoan input[type="checkbox"] {
+        border-radius: 5px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .formtaikhoan input[type="submit"],
+    .formtaikhoan input[type="reset"] {
+        border-radius: 5px;
+        padding: 5px 10px;
+        background-color: #F6973F;
+        border: 1px #CCC solid;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .formtaikhoan input[type="submit"]:hover,    .formtaikhoan input[type="reset"]:hover{
+        background-color: #CCC;
+    }
+    .formtaikhoan a{
+    color: #fd8e26;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.formtaikhoan a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+</style>
+
+<div class="dangnhap">
+    <div class="img">
+        <img src="upload/WZANG 1.png" alt="">
+    </div>
+    <div class="boxdangnhap">
+        <div class="tiltle"> ĐĂNG NHẬP</div>
+        <div class="formtaikhoan">
+            <form action="index.php?act=dangnhap" method="post">
+                <div class="nhap">
+                    <input type="text" name="user" id="" placeholder="username...">
+                </div>
+                <div class="nhap">
+                    <input type="password" name="pass" id="" placeholder="password...">
+                </div>
+                <input type="checkbox" name="nho" id=""> Ghi nhớ mật khẩu?
+                <div class="nut">
+                    <input type="reset" value="Nhập lại">
+                    <input type="submit" value="Đăng nhập" name="dangnhap">
+                </div>
+                <a href="index.php?act=dangky"> Chưa có tài khoản? Đăng ký</a>
+            </form>
+        </div>
+    </div>
+</div>

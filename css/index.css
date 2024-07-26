@@ -1,0 +1,707 @@
+*{
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu{
+    background-color: #342E2E;
+}
+.menu .img img{
+    width: 200px;
+    height: auto;
+}
+.menu ul{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    margin-left: 200px;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 1.2vw;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+.menu ul li .logo_cart{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: -10px;
+    font-size: 1.2vw;
+    width: 35px;
+    height: 35px;
+}
+.why{
+    display: flex;
+    margin-top: -50px;
+}
+.why1{
+    width: 300px;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+.banchay {
+    background-color: #83603A;
+    padding: 10px 0px;
+    position: relative;
+    height: auto;
+}
+.banchay p{
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.banchay ul{
+    margin-top: -5px;
+    position: absolute;
+    margin-left: 450px;
+    background-color: #CCCC;
+    border-radius: 20px;
+    height: 40px;
+}
+.banchay ul li{
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-top: 10px;
+    font-size: 1.2vw;
+}
+.banchay ul li a{
+    color: white;
+    text-decoration: none;
+}
+.boxsp{
+    width: 270px;
+    height: 380px;
+    background-color: whitesmoke;
+    margin-left: 35px;
+    margin-top: 70px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.boxsp .img img {
+    width: 250px;
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.boxsp .namesp {
+    color: black;
+    font-size: 1.8vw;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 600;
+}
+.boxsp .price{
+    margin-left: -110px;
+}
+.boxsp .price p{
+    color: black;
+    font-size: 1.8vw;
+    font-family: sans-serif;
+}
+.boxsp .star{
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.boxallsp{
+    display: flex;
+    margin-top: 0;
+}
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    background-color: rgb(228, 227, 227);
+    display: flex;
+    margin-top: 10px;
+}
+.footer{
+    width: 300px;
+    margin-left: 50px;
+    font-family: sans-serif;
+
+}
+.footer h2{
+    color:#83603A;
+    font-weight: bolder;  
+    font-size: 2vw;
+  }
+  .footer a{
+    color: black;
+    text-decoration: none;
+  }
+/* SẢN PHẨM */
+.boxbao{
+    /* display: flex; */
+    margin-top: 15px;
+    width: 100%;
+  }
+/*boxtrai */
+.boxtrai{
+    width: 100%;
+    background-color: #d3d3d399;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.boxto{
+    float: left;
+}
+.boxnho{
+    min-width: 250px;
+    width: 28%;
+    height: 340px;
+    background-color: whitesmoke;
+    margin-left: 35px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.boxnho .img img {
+    width: 90%;
+    height: 220px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.boxnho .namesp {
+    color: black;
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 600;
+}
+.boxnho .price{
+    margin-left: 10px;
+}
+.boxnho .price p{
+    color: black;
+    font-size: 1.5vw;
+    font-family: sans-serif;
+}
+.boxnho .star{
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.hi{
+    display: flex;
+}
+.btnaddtocart input[type="submit"]{
+    margin-top: -10px;
+    margin-left: 50px;
+    border: 1px solid whitesmoke;
+    height: 50px;
+    width: 50px;
+    font-size: 1.8vw;
+    border-radius: 50%;
+    background-color: #0D1B39;
+    color: white;
+    
+}
+  /*  boxphai */
+.boxphai{
+    width: 22%;
+    margin-left: 2%;
+    float: right;
+}
+.row{
+    float: left;
+    width: 100%;
+
+}
+.mb{
+    margin-bottom: 20px;
+}
+.mb10{
+    margin-bottom: 10px;   
+}
+.boxtitle{
+    color: #333;
+    padding: 10px;
+    background-color: #F6B76F;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #CCC solid;
+}
+.boxcontent{
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+    margin-bottom: 10px;
+}
+.boxcontent2{
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    background-color:#EEE ;
+    
+}
+/*menu dọc*/
+.menudoc ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.menudoc ul li {
+    padding: 10px 15px;
+    background-color: white;
+    border-bottom: 1px #CCC solid;
+}
+.menudoc ul li a{
+    color: #666;
+    text-decoration: none;
+}
+.menudoc ul li:hover{
+    background-color: #CCC;
+}
+.searchbox input[type="submit"]{
+    width: 35%;
+}
+.searchbox input[type="text"]{
+    position: relative;
+    width: 50%;
+    padding: 5px 10px;
+    background-color: #FFF;
+    border: 1px #CCC solid;
+    border-radius: 5px;
+}
+.top10{
+    margin-top: 10px;
+}
+.top10 img{
+    width: 20%;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+
+    border-radius: 5px;
+    border: 1px #CCC solid;
+}
+.top10 a{
+    color:#666;
+    text-decoration: none;
+    font-size: 1vw;
+}
+.top10 a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+.boxfooter{
+    padding: 10px;
+    background-color: #F6B76F;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+}
+
+
+
+/* ĐĂNG NHẬP*/
+.dangnhap {
+    position: relative;
+    background-color: #F6973F;
+    display: flex;
+    height: 100%;
+}
+
+.dangnhap .img {
+    width: 40%;
+    padding: 30px;
+    margin-left: 2%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.dangnhap .img img {
+    width: 100%;
+}
+
+.dangnhap .boxdangnhap {
+    padding: 30px;
+    margin-left: 7%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    width: 28%;
+    background-color: white;
+    height: auto;
+}
+
+.dangnhap .boxdangnhap .tiltle {
+    text-align: center;
+    font-size: 2.3vw;
+    color: #F6973F;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.dangnhap .boxdangnhap .formtaikhoan .nhap input {
+    background-color: #f6973f73;
+    margin-top: 40px;
+    width: 70%;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid #CCC;
+    margin-left: 30px;
+}
+
+.formtaikhoan .nhap input[type="text"],
+.formtaikhoan .nhap input[type="email"],
+.formtaikhoan .nhap input[type="password"] {
+    width: 85%;
+    border: 1px #CCC solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.formtaikhoan .nhap input[type="password"]{
+    margin-bottom: 20px;
+}
+
+.formtaikhoan input[type="submit"],
+.formtaikhoan input[type="reset"] {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #F6973F;
+    border: 1px #CCC solid;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.formtaikhoan input[type="submit"]:hover,    .formtaikhoan input[type="reset"]:hover{
+    background-color: #CCC;
+}
+.formtaikhoan a{
+color: #fd8e26;
+text-decoration: none;
+margin-left: 30px;
+}
+
+.formtaikhoan a:hover{
+color: black;
+text-decoration: underline;
+}
+.thongbao{
+    color: red;
+    font-size: 1.1vw;
+    font-weight: bolder;
+    margin-top: 6px;
+}
+
+/*MENU CON*/
+.menu ul li .menucon{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+    background-color: white;
+    padding: 0px;
+    margin-left: 530px;
+    height: auto;
+    z-index: 3;
+  }
+  .menu ul li:hover>.menucon{
+    display: block;
+  }
+  .menu>ul>li>.menucon{
+    top: 40px;
+    left: 0;
+  }
+  .menu ul li .menucon li{
+    margin-left: 0px;
+    width: 100%;
+    border-bottom: 1px solid #e5e6ec;
+  }
+  .menu ul li .menucon li a{
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 14px;
+    display: block;
+    padding: 10px 20px 15px 15px;
+    color: #333;
+    position: relative;
+    border-bottom: solid 1px #e5e6ec;
+    text-align: left;
+    color: #da9758;
+  }
+  .menu ul li .menucon li a:hover{
+    color: #000;
+    font-family: sans-serif;
+  }
+/*MENU CON SẢN PHẨM*/
+.menu ul li .menuconsp{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 150px;
+    background-color: white;
+    padding: 0px;
+    margin-left: 250px;
+    height: auto;
+    z-index: 3;
+  }
+  .menu ul li:hover>.menuconsp{
+    display: block;
+  }
+  .menu>ul>li>.menuconsp{
+    top: 40px;
+    left: 0;
+  }
+  .menu ul li .menuconsp li{
+    margin-left: 0px;
+    width: 100%;
+    border-bottom: 1px solid #e5e6ec;
+  }
+  .menu ul li .menuconsp li a{
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 1px;
+    display: block;
+    padding: 10px 20px 15px 15px;
+    color: #333;
+    position: relative;
+    border-bottom: solid 1px #e5e6ec;
+    color: #da9758;
+  }
+  .menu ul li .menuconsp li a:hover{
+    color: #000;
+    font-family: sans-serif;
+  }
+
+
+
+
+
+
+  .sptuongtu {
+    background-color: #CCC;
+    margin-top: -90px;
+  }
+  .sptuongtu p {
+    color: #000;
+    font-size: 2vw;
+    font-weight: 600;
+  }
+  .sptuongtu .boxallsp {
+    margin-top: -70px;
+  }
+  .chitietsp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+  }
+  .chitietsp .img .anh img{
+    width: 90%;
+    height: 400px;
+    margin-left: 10px;
+  }
+  .mota .namespct{
+    font-size: 2vw;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+  .mota .price{
+    color: red;
+    font-size: 2vw;
+    margin-bottom: 25px;
+  }
+  .mota .motact{
+    font-size: 1.7vw;
+    margin-bottom: 25px;
+  }
+
+/*BÌNH LUẬN*/
+.binhluan{
+    position: relative;
+    margin-left: 10%;
+}
+.cmt{
+    border: 1px #CCC solid;
+    border-radius: 5px;
+    min-height: auto;
+}
+.boxbinhluan{
+    padding-top: 10px;
+    background-color: #F6B76F;
+    color: black;
+    font-size: 1.5vw;
+    text-align: center;
+    height: 40px;
+}
+.boxnoidung{
+    color: black;
+    font-size: 1.5vw;
+    min-height: 100px;;
+}
+.binhluanform form{
+    background-color: #F6B76F;
+    color: black;
+    font-size: 1.5vw;
+    height: 40px;
+    margin-bottom:0px;
+}
+.binhluanform  form input[type="text"]{
+    margin-left: 40px;
+    margin-top: 5px;
+    width: 500px;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid #F6B76F;
+    background-color: #EFEFEF;
+
+}
+.binhluanform form input[type="submit"]{
+    width: 80px;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid #F6B76F;
+    background-color: #EFEFEF;
+    margin-top: 5px;
+    margin-left: 0px;
+    background-color: #EFEFEF;
+}
+.add{
+    color: #8A603A;
+    font-size: 2.5vw;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: 30px;
+}
+.cart table, .boxcontent3 table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #8A603A ;
+}
+.cart table th, .boxcontent3 table th{
+    padding: 10px;
+    border: 1px solid #8A603A ;
+    width: auto;
+}
+.cart table th a input[type="button"]{
+    width: auto;
+    height: 30px;
+    background-color: #8A603A;
+    color: white;
+    border: 1px solid;
+    margin-left: 30px;
+    border-radius: 3px;
+}
+.cart table th a input[type="button"]:hover{
+    background-color: #ccc;
+    color:#000;
+}
+.formcontent input[type="submit"],.formcontent input[type="reset"],.formcontent input[type="button"] {
+    width: auto;
+    height: 30px;
+    background-color: #8A603A;
+    color: white;
+    border: 1px solid;
+    margin-left: 30px;
+    border-radius: 3px;
+}
+.formcontent input[type="submit"]:hover,.formcontent input[type="reset"]:hover,.formcontent input[type="button"]:hover{
+    background-color: #ccc;
+    color: #8A603A;
+}
+ /*TRANG HỖ TRỢ*/
+ .tranghotro{
+    background-color: #f3f3f3;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 15px;
+    box-shadow: 10px 10px #ccc;
+    margin-bottom: 20px;
+}
+.tranghotro h1{
+    text-align: center;
+    color: #F6973F;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.hotro{
+    display: flex;
+    margin-left:10%;
+}
+.qrlienhe img{
+    margin-left: 15%;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px
+}
+.qrlienhe p{
+    margin-left: -150px;
+    color: #F6973F;
+    font-weight: bolder;
+}
+ /*bill*/
+ .abill{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+ .abill a {
+    text-decoration: none;
+    border: 1px solid #ccc;
+    background-color: #da9758;
+    width: auto;
+    padding: 10px;
+    color: white;
+
+ }
+ .abill a:hover{
+    border: 1px solid #da9758;
+    background-color: #ccc;
+    color: #83603A;
+ }
+ .bill{
+    width: 80%;
+    margin-left: 10%;;
+    margin-bottom: 10px;
+    margin-top: 10px;
+ }
+.bill1{
+    background-color: #f3f3f3;
+}
+.bill .bill1 .boxcontent td{
+    padding-left: 30px;
+}
+.bill .bill1 .boxcontent td input[type="text"]{
+    width: 500px;
+    height: 30px;
+    border: 1px #da9758 solid;
+    border-radius: 7px;
+}
+.bill .bill1 input[type="submit"]{
+    width: 200px;
+    height: 30px;
+    background-color:#da9758 ;
+    color:  white;
+    border: #CCC 1px solid;
+    border-radius: 5px;
+}
+.bill .bill1 input[type="submit"]:hover{
+    width: 200px;
+    height: 30px;
+    background-color:#ccc ;
+    color:  black;
+    border: #da9758 1px solid;
+    border-radius: 5px;
+}
